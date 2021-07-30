@@ -20,10 +20,15 @@ Les fonctions utiles sont écrites (en partant de la racine) dans "./src/segment
    En gros, elles ne sont pas utilisable directement, sauf exceptions.
    Exceptions:
    Pic_Treatments.plot_a_b_c_d qui permet une représentation des images a,b,c,d (selon le raisonnement par analogie) en matrice 3x3:
-            1.1 a               1.2 fusion a:b      1.3b
-            2.1 fusion a:c                         2.3 fusion b:d
-            3.1 c               3.2 fusion c:d      3.3 d
-   
+*** Code Markdown ***
+*********************
+| Header 1      |     2 header    |   header 3 |
+| ------------- |: -------------: | ---------: |
+| 1 Online      |        1        |      value |
+| Line 2        |        2        |      value |
+| 3 Online      |        3        |      value |
+
+
 3. Frame_Performances.py contient des fonctions permettant nottament de calculer les indices de Dice et Jaccard:
     - Frame_Performances.indice_dice est la fonction qu'on utilisera le plus pour obtenir l'indice de Dice entre 2 images sous formes numpy array n*m*{0,0.5,1}
    
